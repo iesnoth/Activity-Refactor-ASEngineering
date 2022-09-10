@@ -15,6 +15,4 @@
     date + ", " +
     (getFourDigits(now.getYear()));
 
-  alert(today);
-
-  console.log(today)
+  

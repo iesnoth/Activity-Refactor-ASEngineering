@@ -7,26 +7,32 @@
      7. In the new index.html, call each function with values you added in the external .js file and output the results using console.log()
       -->
 
-      <!DOCTYPE html>
-      <html>
-      
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>All Star Engineering - To Refactor</title>
-      </head>
-      
-      <body>
-      
-        <script src="math.js"></script>
-        <script>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="math.js"></script>
+  <script src="date.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>All Star Engineering - To Refactor</title>
+</head>
+
+<body>
+  <button onclick="console.log(add(1,2));">Test Add</button>
+  <button onclick="console.log(subtract(1,2));">Test Subtract</button>
+  <button onclick="console.log(divide(1,2));">Test Divide</button>
+  <button onclick="console.log(multiply(1,2));">Test Multiply</button>
+  <button onclick="console.log(today);">Test Date</button>
+
+
+  <!-- <script>
           alert(add(14, 15))
           alert(divide(100, 20))
           alert(subtract(25, 4))
           alert(multiply(19, 3))
-        </script>
-      
-        <script src="date.js"></script>
-      </body>
-      
-      </html>
+        </script> -->
+  
+</body>
+
+</html>
